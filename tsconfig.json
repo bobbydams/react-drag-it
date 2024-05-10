@@ -12,10 +12,17 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react"
+    "noEmit": false,
+    "declaration": true,
+    "jsx": "react",
+    "outDir": "build",
+    "baseUrl": ".",
   },
   "include": [
     "src"
-, "old/Draggable.js", "old/DraggableCore.js", "old/cjs.js", "old/utils"  ]
+  ],
+  "exclude": [
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx"
+  ]
 }

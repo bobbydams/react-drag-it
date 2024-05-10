@@ -1,7 +1,12 @@
 # React Drag It!
 
+[![codecov](https://codecov.io/gh/bobbydams/react-drag-it/graph/badge.svg?token=QTESVVF16D)](https://codecov.io/gh/bobbydams/react-drag-it)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/bobbydams/react-drag-it/build?logo=github)
+[![npm version](https://badge.fury.io/js/%40bobbydams%2Freact-drag-it.svg)](https://badge.fury.io/js/%40bobbydams%2Freact-drag-it)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This is a TypeScript implementation of the [React Draggable](https://github.com/react-grid-layout/react-draggable) library.
-It is designed to work with React 17 and higher.
+It is designed to work with React 17 and higher and is compatible with both TypeScript and JavaScript projects.
 
 ## Features
 
@@ -43,6 +48,7 @@ The DragIt component accepts the following props:
 | Prop              | Description                                                                       |
 | ----------------- | --------------------------------------------------------------------------------- |
 | `axis`            | Determines which axis the draggable can move. Can be "x", "y", "both", or "none". |
+| `buffer`          | Adds some draggable buffer space around the draggable component.                  |
 | `handle`          | Selector to be used as the handle that initiates drag.                            |
 | `defaultPosition` | The default position of the draggable component.                                  |
 | `position`        | The controlled position of the draggable component.                               |

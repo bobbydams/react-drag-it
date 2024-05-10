@@ -2,15 +2,17 @@
   "name": "react-drag-it",
   "version": "1.0.0",
   "description": "React draggable component written in Typescript",
-  "main": "index.js",
+  "main": "build/DragIt.js",
+  "types": "build/DragIt.d.ts",
   "directories": {
-    "example": "example",
-    "lib": "lib"
+    "src": "src"
   },
+  "files": ["build"],
   "scripts": {
     "test": "jest test",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build": "tsc -p tsconfig.json"
   },
   "repository": {
     "type": "git",
