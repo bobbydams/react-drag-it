@@ -1,6 +1,6 @@
 {
   "name": "react-drag-it",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React draggable component written in Typescript",
   "main": "build/DragIt.js",
   "types": "build/DragIt.d.ts",

@@ -50,7 +50,7 @@ jobs:
       - run: git config --global user.email 'github-actions[bot]@users.noreply.github.com'
       - run: npm version patch -m "Bump version to %s"
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT }}
       - run: git push origin HEAD:main
       - run: npm publish
         env:
