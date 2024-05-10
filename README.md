@@ -2,7 +2,7 @@
 
 [![codecov](https://codecov.io/gh/bobbydams/react-drag-it/graph/badge.svg?token=QTESVVF16D)](https://codecov.io/gh/bobbydams/react-drag-it)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/bobbydams/react-drag-it/build?logo=github)
-[![npm version](https://badge.fury.io/js/%40bobbydams%2Freact-drag-it.svg)](https://badge.fury.io/js/%40bobbydams%2Freact-drag-it)
+[![npm version](https://badge.fury.io/js/%40drake-design-studio%2Freact-drag-it.svg)](https://badge.fury.io/js/%40drake-design-studio%2Freact-drag-it)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This is a TypeScript implementation of the [React Draggable](https://github.com/react-grid-layout/react-draggable) library.
@@ -19,13 +19,13 @@ It is designed to work with React 17 and higher and is compatible with both Type
 To install this library, you can use npm:
 
 ```bash
-npm install @bobbydams/react-drag-it
+npm install @drake-design-studio/react-drag-it
 ```
 
 or yarn:
 
 ```bash
-yarn add @bobbydams/react-drag-it
+yarn add @drake-design-studio/react-drag-it
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ Then, you can use it in your component:
 
 ```tsx
 import React from "react";
-import { DragIt } from "@bobbydams/react-drag-it";
+import { DragIt } from "@drake-design-studio/react-drag-it";
 
 <DragIt axis="both">
   <div>Your draggable content here</div>
